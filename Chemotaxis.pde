@@ -34,8 +34,8 @@
    }
   void show()
   {
-    ellipse(x,y,5,5);
-    ellipse(x,y,5,5);
+    ellipse(x,y,20,20);
+    ellipse(x,y,20,20);
     fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
   }
  }
