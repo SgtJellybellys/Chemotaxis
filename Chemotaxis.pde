@@ -19,23 +19,23 @@
  }  
  class Bacteria    
  {     
-   int x,y;
+   int myX,myY;
    int fill;
    Bacteria()
    {
-     x=(int)(Math.random()*500);
-     y=(int)(Math.random()*500);
+     myX=(int)(Math.random()*500);
+     myY=(int)(Math.random()*500);
      fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
    }
    void move()
    {
-     x=x+(int)(Math.random()*3)-1;
-     y=y+(int)(Math.random()*3)-1;
+     myX=myX+(int)(Math.random()*3)-1;
+     myY=myY+(int)(Math.random()*3)-1;
    }
   void show()
   {
-    ellipse(x,y,20,20);
-    ellipse(x,y,20,20);
+    ellipse(myX,myY,20,20);
+    ellipse(myX,myY,20,20);
     fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
   }
  }
